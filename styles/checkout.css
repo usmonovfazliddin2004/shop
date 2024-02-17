@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topnavbar{
+    width: 1440px;
+    height: 48px;
+    /* Button */
+    background: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+}
+.summer{
+    /* Title/14PX Regular */
+    color: rgb(250, 250, 250);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    margin-left: 445px;
+}
+.ShopNow{
+    color: rgb(250, 250, 250);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration-line: underline;
+    margin-left: 8px;
+}
+.language{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 1.5px 0px 1.5px 0px;
+    margin-left: 231px;
+}
+.language p{
+    /* Title/14PX Regular */
+    color: rgb(250, 250, 250);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+}
