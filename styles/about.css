@@ -201,7 +201,110 @@ text p{
     text-align: left;
     width: 525px;
 }
+.header2{
+    width: 1440px;
+    height: 230px;
+    padding-left: 135px;
+    padding-right: 135px;
+    padding-bottom: 140px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.Services{
+    width: 270px;
+    height: 230px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    padding: 30px 51px 30px 50px;
+}
+.home{
+    width: 169px;
+    height: 170px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+}
+.home h1{
+    /* Heading/32PX Bold */
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 4%;
+    text-align: left;
+    margin-bottom: 12px;
+    margin-top: 24px;
+}
+.home p{
+    /* Title/16PX Regular */
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.Services1{
+    /* Frame 871 */
+    position: static;
+    width: 270px;
+    height: 230px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    border-radius: 4px;
 
+    /* Categogy/20 */
+    box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.2);
+    /* Secondary 2 */
+    background: rgb(219, 68, 68);
+    padding: 30px 51px 30px 50px;
+}
+.home1{
+    width: 169px;
+    height: 170px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    background: rgb(219, 68, 68);
+}
+.home1 h1{
+    /* Heading/32PX Bold */
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 4%;
+    text-align: left;
+    margin-bottom: 12px;
+    margin-top: 24px;
+}
+.home1 p{
+    /* Title/16PX Regular */
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
 
 /* Footer */
 footer{
