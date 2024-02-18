@@ -144,6 +144,63 @@ li a{
     opacity: 0.3;
 }
 /* Header */
+.header{
+    width: 1440px;
+    padding: 79.75px 135px 140px 135px;
+}
+.bloglinks{
+    display: flex;
+    gap: 11.5px;
+}
+.sections{
+    /* Title/14PX Regular */
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.5;
+    text-decoration: none;
+    margin-bottom: 80px;
+}
+.sections:hover{
+    opacity: 1;
+    text-decoration: underline;
+    transition: all 1.5s;
+}
+.container{
+    display: flex;
+    align-items: center;
+    gap: 75px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.text h1{
+    /* Heading/54PX SemiBold */
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 6%;
+    text-align: justify;
+    margin-bottom: 16px;
+}
+text p{
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 525px;
+}
 
 
 /* Footer */
