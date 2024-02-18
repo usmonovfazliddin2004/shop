@@ -1,0 +1,16 @@
+<svg width="32.000000" height="32.000000" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip24_6518">
+			<rect id="Wishlist=On" width="32.000000" height="32.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="Wishlist=On" width="32.000000" height="32.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip24_6518)">
+		<path id="Vector" d="M6 11.9962C6 14.2238 6.875 19.5107 15.4883 24.8551C15.6426 24.9499 15.8193 25 16 25C16.1807 25 16.3574 24.9499 16.5117 24.8551C25.125 19.5107 26 14.2238 26 11.9962C26 9.23669 23.7607 7 21 7C18.2393 7 16 10.028 16 10.028C16 10.028 13.7607 7 11 7C8.23926 7 6 9.23669 6 11.9962Z" stroke="#000000" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"/>
+		<circle id="Ellipse 1" cx="24.000000" cy="9.000000" r="8.000000" fill="#DB4444" fill-opacity="1.000000"/>
+		<path id="4" d="M20.2065 11.0693L20.2065 10.2402L24.4194 4.40723L25.726 4.40723L25.726 10.1201L26.9272 10.1201L26.9272 11.0693L25.726 11.0693L25.726 13L24.6449 13L24.6449 11.0693L20.2065 11.0693ZM24.6947 5.54688L21.4662 10.1201L24.6947 10.1201L24.6947 5.54688Z" fill="#FAFAFA" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+</svg>
