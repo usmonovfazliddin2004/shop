@@ -305,7 +305,66 @@ text p{
     letter-spacing: 0%;
     text-align: center;
 }
+.header3{
+    width: 1440px;
+    padding: 0px 135px 140px 65px;
+}
+.users{
+    width: 1170px;
+    height: 564px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+}
+.tom{
+    width: 370px;
+    height: 430px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border-radius: 4px;
 
+    /* Secondary */
+    /* background: rgb(245, 245, 245); */
+    padding: 39px 67px 0px 67px;
+}
+.Cruise{
+    /* Heading/32PX Medium */
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 4%;
+    text-align: left;
+    margin-left: 70px;
+    margin-top: 64px;
+}
+.job{
+    /* Title/16PX Regular */
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 70px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+.web{
+    margin-left: 70px;
+}
+.dots{
+    margin-left: 529px;
+    margin-top: 80px;
+}
 /* Footer */
 footer{
     width: 1440px;
