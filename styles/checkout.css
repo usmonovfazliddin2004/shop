@@ -1,0 +1,531 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topnavbar{
+    width: 1440px;
+    height: 48px;
+    /* Button */
+    background: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+}
+.summer{
+    /* Title/14PX Regular */
+    color: rgb(250, 250, 250);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    margin-left: 445px;
+}
+.ShopNow{
+    color: rgb(250, 250, 250);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration-line: underline;
+    margin-left: 8px;
+}
+.language{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 1.5px 0px 1.5px 0px;
+    margin-left: 231px;
+}
+.language p{
+    /* Title/14PX Regular */
+    color: rgb(250, 250, 250);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.navbar{
+    width: 1440px;
+    padding: 47px 135px 23.25px 135px;
+    display: flex;
+    gap: 130px;
+    /* Button */
+    /* border: 0.5px solid rgb(0, 0, 0); */
+}
+.loglinks{
+    display: flex;
+    gap: 160px;
+    align-items: center;
+}
+.exc{
+    /* Heading/24PX Bold */
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 3%;
+    text-align: left;
+}
+ul{
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+li a{
+    /* Title/16PX Regular */
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 61px;
+    text-decoration: none;
+}
+.sets{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.looking{
+    width: 243px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 12px 7px 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border-radius: 4px;
+    background: rgb(245, 245, 245);
+}
+.looking:hover{
+    border: 2px solid black;
+}
+.looking input{
+    width: 153px;
+    height: 18px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 34px;
+    /* Text2 */
+    opacity: 0.5;
+    border: none;
+    outline: none;
+    background: rgb(245, 245, 245);
+    font-size: 12px;
+}
+.nots{
+    display: flex;
+    gap: 17px;
+    align-items: center;
+}
+.line{
+    border: 0.5px solid rgb(0, 0, 0);
+    width: 1440px;
+    opacity: 0.3;
+}
+.header{
+    width: 1440px;
+    padding: 79.75px 135px 140px 135px;
+}
+.bloglinks{
+    display: flex;
+    gap: 11.5px;
+}
+.sections{
+    /* Title/14PX Regular */
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.5;
+    text-decoration: none;
+    margin-bottom: 80px;
+}
+.sections:hover{
+    opacity: 1;
+    text-decoration: underline;
+    transition: all 1.5s;
+}
+.container{
+    display: flex;
+    align-items: center;
+    gap: 173px;
+}
+.Billing{
+    /* Heading/36PX Medium */
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 4%;
+    text-align: left;
+    margin-bottom: 48px;
+}
+.inputgroup{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.inptext{
+    /* Title/16PX Regular */
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.4;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.name input{
+    /* Frame 803 */
+    position: static;
+    width: 470px;
+    height: 50px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 8px 0px;
+    border-radius: 4px;
+    font-size: 24px;
+    /* Secondary */
+    background: rgb(245, 245, 245);
+    border: none;
+    outline: none;
+}
+.check{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-top: -8px;
+}
+.check p{
+    /* Title/16PX Regular */
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.chek{
+    /* icon-checkbox */
+    position: static;
+    width: 24px;
+    height: 24px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border-radius: 4px;
+    background: rgb(219, 68, 68);
+    color: white;
+    padding-left: 5px;
+}
+.joystic{
+    display: flex;
+    align-items: center;
+}
+.static{
+    /* Frame 812 */
+    position: static;
+    width: 425px;
+    height: 54px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-bottom: 32px;
+}
+.static2{
+    align-items: center;
+    width: 422px;
+    height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-bottom: 16px;
+}
+.cost{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lcd{
+    /* Title/16PX Regular */
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 26.12px;
+}
+.Subtotal{
+    /* Title/16PX Regular */
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.paymenttypes{
+    width: 427px;
+    height: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin-bottom: 34px;
+    margin-top: 34px;
+}
+.paymenttypes input{
+    width: 24px;
+    height: 24px;
+}
+.type1{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.Bank{
+    /* Title/16PX Regular */
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.Cards{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.coupon{
+    display: flex;
+    align-items: center;
+}
+.coupon input{
+    width: 300px;
+    height: 56px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    padding: 16px 164px 16px 24px;
+    margin-bottom: 32px;
+    margin-top: -2px;
+    font-size: 16px;
+}
+.but{
+    width: 211px;
+    height: 56px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 48px 16px 48px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    border-radius: 4px;
+    background: rgb(219, 68, 68);
+    border: none;
+    margin-top: -38px;
+    margin-left: 15px;
+}
+.but p{
+    /* Title/16PX Medium */
+    color: rgb(250, 250, 250);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.but2{
+    width: 211px;
+    height: 56px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 48px 16px 48px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    border-radius: 4px;
+    background: rgb(219, 68, 68);
+    border: none;
+    margin-top: px;
+}
+.but2 p{
+    /* Title/16PX Medium */
+    color: rgb(250, 250, 250);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+footer{
+    width: 1440px;
+    height: 440px;
+    background: rgb(0, 0, 0);
+    padding: 80px 139px 59.5px 135px;
+    display: flex;
+    gap: 60px;
+}
+.infos{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.infos h1{
+    /* Heading/24PX Bold */
+    color: rgb(250, 250, 250);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 3%;
+    text-align: left;
+}
+.infos h3{
+    /* Heading/24PX Bold */
+    color: rgb(250, 250, 250);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.discount{
+    /* Title/16PX Regular */
+    color: rgb(250, 250, 250);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 175px;
+    margin-bottom: -8px;
+}
+.email{
+    display: flex;
+    align-items: center;
+    padding: 12px 3px 12px 16px;
+    box-sizing: border-box;
+    /* Text */
+    border: 1.5px solid rgb(250, 250, 250);
+    border-radius: 4px;
+    width: 217px;
+    height: 48px;
+}
+.email input{
+    /* Title/16PX Regular */
+    color: rgb(250, 250, 250);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    background: rgb(0, 0, 0);
+    border: none;
+    outline: none;
+    width: 90%
+}
+.webs{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    margin-top: -4px;
+}
+.store{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.copy{
+    display: flex;
+    align-items: center;
+    gap: 3.67px;
+    background: rgb(0, 0, 0);
+    width: 1440px;
+}
+.copy p{
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 16.5px;
+    margin-left: 551.5px;
+}
+.line1{
+    width: 1440px;
+    /* Primary */
+    border: 1px solid rgb(255, 255, 255);
+    opacity: 0.4;
+}
